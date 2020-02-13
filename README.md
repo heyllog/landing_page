@@ -1,2 +1,2 @@
-# landing_page
+# Landing Page
 Лабораторная работа #1 по Web-программированию
