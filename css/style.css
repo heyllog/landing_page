@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -22,30 +21,41 @@ p {
     color: rgb(46, 46, 46);
 }
 
-.header {
-    display: inline-flex;
-    height: 5vh;
-    padding: 10px;
-    background-color: white;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-family: "Roboto", sans-serif;
-    color: #000000;
-    /*border-bottom: 1px solid gray;*/
+    background-color: #ffffff;
+    padding: 15px;
 }
 
 .header_title {
-    font-size: 1em;
-    text-indent: 3vw;
+    font-size: 18px;
 }
 
-.header_contact {
-    font-size: 1em;
-    text-indent: 58vw;
-    border: #48A052;
+header a {
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
 }
 
-.header_phone {
-    text-indent: 3vw; /* переделать */
-    font-size: 1em;
+header a.header_title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #56bf63;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 .article {
@@ -120,4 +130,13 @@ p {
 
 .third_article {
     background-color: #ebebeb;
+}
+
+.article_header3 {
+    text-align: center;
+}
+
+.map {
+    padding: 0;
+    margin: 20px 0 0;
 }
