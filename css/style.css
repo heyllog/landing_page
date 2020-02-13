@@ -32,6 +32,7 @@ header {
 
 .header_title {
     font-size: 18px;
+    padding-left: 5vw;
 }
 
 header a {
@@ -56,6 +57,7 @@ header a:hover {
 nav {
     display: flex;
     align-items: center;
+    padding-right: 5vw;
 }
 
 .article {
