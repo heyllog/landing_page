@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: rgb(46, 46, 46);
+}
+
+.header {
+    display: inline-flex;
+    height: 5vh;
+    padding: 10px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    /*border-bottom: 1px solid gray;*/
+}
+
+.header_title {
+    font-size: 1em;
+    text-indent: 3vw;
+}
+
+.header_contact {
+    font-size: 1em;
+    text-indent: 58vw;
+    border: #48A052;
+}
+
+.header_phone {
+    text-indent: 3vw; /* переделать */
+    font-size: 1em;
+}
+
+.article {
+    min-height: 100vh;
+    padding: 8px 50px;
+}
+
+.first_article {
+    min-height: 95vh;
+    background: url("../img/main.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.contact {
+    padding: 1vh 3vw 3vh 3vw;
+    margin-top: 10vh;
+    margin-right: 53vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.form_input {
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 97%;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form_button {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 8vh;
+    width: 100%;
+    color: white;
+    background-color: #48A052;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form_button:hover {
+    background-color: #56bf63;
+}
+
+.article_header {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.article_under_header {
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    height: 410px;
+    width: 600px;
+    margin: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.third_article {
+    background-color: #ebebeb;
+}
