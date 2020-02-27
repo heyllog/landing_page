@@ -1,0 +1,27 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "Лабораторная работа #1 по Web-программированию",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyllog/landing_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyllog/landing_page/issues"
+  },
+  "homepage": "https://github.com/heyllog/landing_page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
