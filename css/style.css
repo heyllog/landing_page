@@ -1,144 +1,84 @@
+@font-face {
+  font-family: 'raleway-grid';
+  src: url("../fonts/RalewayRegular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'raleway-grid';
+  src: url("../fonts/RalewayBold.woff") format("woff");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'raleway-grid';
+  src: url("../fonts/RalewayExtraBold.woff") format("woff");
+  font-weight: 800; }
+
+@font-face {
+  font-family: 'intro-grid';
+  src: url("../fonts/IntroRegular.woff") format("woff"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 body {
-    margin: 0;
-}
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: raleway-grid, sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+  color: #333;
+  scroll-behavior: smooth; }
 
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 5em;
-    font-weight: 700;
-}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
 
-h2 {
-    font-family: "Oswald", sans-serif;
-    font-size: 3em;
-    font-weight: 600;
-}
+.text-center {
+  text-align: center; }
 
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: rgb(46, 46, 46);
-}
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
-    padding: 15px;
-}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
 
-.header_title {
-    font-size: 18px;
-    padding-left: 5vw;
-}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
 
-header a {
-    color: #212121;
-    padding: 12px;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    border-radius: 4px;
-}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/ }
 
-header a.header_title {
-    font-size: 25px;
-    font-weight: bold;
-}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
 
-header a:hover {
-    background-color: #56bf63;
-    color: #ffffff;
-}
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
 
-nav {
-    display: flex;
-    align-items: center;
-    padding-right: 5vw;
-}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
 
-.article {
-    min-height: 100vh;
-    padding: 8px 50px;
-}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
 
-.first_article {
-    min-height: 95vh;
-    background: url("../img/main.jpg") no-repeat center center;
-    background-size: cover;
-}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
 
-.contact {
-    padding: 1vh 3vw 3vh 3vw;
-    margin-top: 10vh;
-    margin-right: 53vw;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.4);
-}
-
-.form_input {
-    padding: 10px;
-    margin-bottom: 10px;
-    height: 35px;
-    width: 97%;
-    border: 2px solid rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.form_button {
-    font-size: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 8vh;
-    width: 100%;
-    color: white;
-    background-color: #48A052;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.form_button:hover {
-    background-color: #56bf63;
-}
-
-.article_header {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: -10px;
-}
-
-.article_under_header {
-    text-align: center;
-}
-
-.gallery {
-    text-align: center;
-}
-
-.gallery img {
-    height: 410px;
-    width: 600px;
-    margin: 20px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.third_article {
-    background-color: #ebebeb;
-}
-
-.article_header3 {
-    text-align: center;
-}
-
-.map {
-    padding: 0;
-    margin: 20px 0 0;
-}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
