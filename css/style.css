@@ -234,15 +234,40 @@ input, textarea {
     grid-column: 4;
     grid-row: 2 / 4; }
 
-.contact-section {
+.landing-section {
   padding: 80px 0; }
-  .contact-section h2 {
+  .landing-section h2 {
     font-size: 34px;
-    font-weight: 800;
+    font-weight: 700;
     color: #23292E;
     line-height: 1.2; }
-  .contact-section .container {
+  .landing-section .container {
     grid-template-columns: 1fr 1fr; }
+  .landing-section .home-office {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px; }
+    .landing-section .home-office img {
+      margin: 20px;
+      width: 80%;
+      -webkit-transition: -webkit-transform .2s ease;
+      transition: -webkit-transform .2s ease;
+      -o-transition: transform .2s ease;
+      transition: transform .2s ease;
+      transition: transform .2s ease, -webkit-transform .2s ease; }
+      .landing-section .home-office img:hover {
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05); }
+    .landing-section .home-office h2 {
+      margin-bottom: 20px; }
+    .landing-section .home-office h1 {
+      font-size: 36px;
+      font-weight: 800;
+      color: #23292E;
+      line-height: 1.2; }
+  .landing-section #left {
+    border-right: 1px solid #dadada; }
 
 .messengers-ico {
   -webkit-transition: -webkit-transform .2s linear;
