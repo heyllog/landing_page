@@ -2,57 +2,91 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald|Roboto&display=swap" rel="stylesheet">
-    <title>Клининг</title>
-    <link href="img/logo.png" rel="icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald|Roboto&display=swap"
+          rel="stylesheet">
+    <title>Cleaning</title>
+    <link href="img/ico/favicon.ico" rel="icon"/>
     <link href="css/style.css" rel="stylesheet"/>
-    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 </head>
 
 <body>
-<header id="home" class="header">
-    <h1 class="header_title">Клининг-фирма</h1>
+<header>
     <nav>
-        <a class="active" href="#home">Главная</a>
-        <a href="#about">О нас</a>
-        <a href="#contact">Контакты</a>
+        <a href="#" id="logo">Cleaning</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contacts</a>
+        <a href="#" class="button">Book Online</a>
     </nav>
 </header>
-<article class="article first_article">
-    <div class="contact">
-        <h2>Уборка квартиры<br>в Санкт-Петербурге</h2>
-        <form class="form_form">
-            <input type="text" class="form_input" placeholder="Как к вам обращаться?">
-            <input type="tel" class="form_input" placeholder="Номер телефона">
-            <button class="form_button" type="button">Заказать звонок</button>
-        </form>
+
+<section id="about-section">
+    <div class="container">
+        <div id="table">
+            <h2>Lorem ipsum<br>Lorem ipsum dolor sit amet</h2>
+            <form class="callback">
+                <p>Your name:</p>
+                <input type="text" class="callback-input" placeholder="">
+                <p>Phone Number:</p>
+                <input type="tel" class="callback-input" placeholder="">
+                <button class="button callback-button" type="button">Book in 60 Seconds Now</button>
+            </form>
+        </div>
     </div>
-</article>
-<article id="about" class="article">
-    <h2 class="article_header">Как мы делаем уборку</h2>
-    <p class="article_under_header">Наш сотрудник приезжает в назначенное время со всем необходимым и <br>
-        сразу приступает к делу. Вам остаётся только оценить результат</p>
-    <div class="gallery">
-        <img src="img/gallery1.jpg" alt="Фотография 1">
-        <img src="img/gallery2.jpg" alt="Фотография 2">
-        <img src="img/gallery3.jpg" alt="Фотография 3">
-        <img src="img/gallery4.jpg" alt="Фотография 4">
+</section>
+
+<section id="gallery-section">
+    <div class="gallery-item" style="background-image: url(img/1.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/2.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/3.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/4.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/5.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/6.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/7.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/8.jpg)"><span>Lorem ipsum</span></div>
+    <div class="gallery-item" style="background-image: url(img/9.jpg)"><span>Lorem ipsum</span></div>
+</section>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-left">
+            <h2>Lorem ipsum<br>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque enim error explicabo magni
+                nemo quaerat unde voluptas. Ad animi culpa cumque dolore placeat, reiciendis rem repellendus repudiandae
+                veniam voluptate.</p>
+
+            <div class="contacts">
+                <p>Cleaning Exec<br>
+                    12 John Street<br>
+                    New York, NY 10038
+                </p>
+                <p>
+                    Email: clean@clean.cl<br>
+                    Phone: 8 (800) 555-35-35<br>
+                    Tax: 8 (800) 555-35-35
+                </p>
+            </div>
+            <div class="messengers">
+                <a href="#"><img src="img/ico/telegram.ico" class="messengers-ico"></a>
+                <a href="#"><img src="img/ico/whatsapp.ico" class="messengers-ico"></a>
+                <a href="#"><img src="img/ico/viber.ico" class="messengers-ico"></a>
+                <a href="#"><img src="img/ico/facebook.ico" class="messengers-ico"></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <img src="img/phone.png" alt="">
+        </div>
     </div>
-</article>
-<article id="contact" class="article third_article">
-    <h2 class="article_header">Наши контакты в Санкт-Петербурге</h2>
-    <p class="article_under_header">Мы всегда на связи</p>
-    <p>
-        Email: clean@clean.cl<br>
-        Телефон: 8 (800) 555-35-35<br>
-        Адрес: г. Санкт-Петербург ул. Чистая, 10
-    </p>
-<!--    <img src="img/map.png" alt="" style="text-align: center;">-->
-    <div class="map">
-        <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A28c9f9869f3450be47baad6b07af6b337b115219b2e879ff5ded3c2c57e1235f&amp;width=100%&amp;height=500&amp;lang=ru_RU&amp;scroll=true">
-        </script>
+</section>
+<footer>
+    <div class="main-footer">
+        <button class="button" type="button">Book in 60 Seconds Now</button>
+        <a href="#"><img src="img/ico/telegram.ico" class="messengers-ico"></a>
+        <a href="#"><img src="img/ico/whatsapp.ico" class="messengers-ico"></a>
+        <a href="#"><img src="img/ico/viber.ico" class="messengers-ico"></a>
+        <a href="#"><img src="img/ico/facebook.ico" class="messengers-ico"></a>
+        <a href="#" class="number">8 (800) 555-35-35</a>
     </div>
-</article>
+</footer>
 </body>
 </html>
